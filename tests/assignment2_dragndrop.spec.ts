@@ -61,7 +61,6 @@ test('Validate Drag and Drop Slider from 15 to 95', async ({ page }) => {
  
   await expect(rangeValue).toHaveText('95'); 
  
-
 await page.screenshot({ 
 path: 'screenshots/04-validation-passed.png', 
 fullPage: true, 
