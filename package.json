@@ -1,0 +1,22 @@
+{
+  "name": "testmu_certification",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nishad168/Playwright101/new/main/#readme",
+  "bugs": {
+    "url": "https://github.com/nishad168/Playwright101/new/main/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishad168/Playwright101/TestMu-CodingAssessment.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.1"
+  }
+}
