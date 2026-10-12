@@ -46,14 +46,14 @@ test('Input Form Submit Validation', async ({ page }) => {
   )?.trim();
 
   if (actualMessage === expectedMessage) {
-    console.log('✅ Test Pass');
+    console.log('Test Pass');
 
     await page.screenshot({
       path: 'Success_Test_Pass.png',
       fullPage: true
     });
   } else {
-    console.log('❌ Test Fail');
+    console.log('Test Fail');
     console.log(`Expected: ${expectedMessage}`);
     console.log(`Actual: ${actualMessage}`);
 
