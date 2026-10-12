@@ -17,6 +17,7 @@ await page.goto('https://www.testmuai.com/selenium-playground/');
   const getCheckedValueButton = page.getByRole('button', {
     name: /get checked value/i,
   });
+  
   const yourMessageField = page.locator('#message');
   await expect(messageInput).toBeVisible();
   await expect(getCheckedValueButton).toBeVisible();
